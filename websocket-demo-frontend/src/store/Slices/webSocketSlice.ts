@@ -5,7 +5,9 @@ import Stomp from "stompjs";
 export enum messageType {
     CHAT= 'CHAT',
     JOIN = 'JOIN',
-    LEAVE = 'LEAVE'
+    LEAVE = 'LEAVE',
+    ONLINE_COUNT ='ONLINE_COUNT'
+    
 }
 interface webSocketMessage {
     sender: string;

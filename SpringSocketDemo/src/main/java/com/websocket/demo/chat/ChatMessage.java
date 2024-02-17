@@ -11,4 +11,5 @@ public class ChatMessage {
     private String timestamp;
     private String sender;
     private MessageType type;
+    private int onlineUsers;
 }

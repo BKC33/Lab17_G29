@@ -3,5 +3,6 @@ package com.websocket.demo.chat;
 public enum MessageType {
     CHAT,
     JOIN,
-    LEAVE
+    LEAVE,
+    ONLINE_COUNT
 }
